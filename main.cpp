@@ -68,11 +68,11 @@ int main() {
   
   entrada.open(nom + ".txt"); //Abrimos el txt dado
   
-  cin >> n;  
+  entrada >> n;  
   int arr[n]; //Vector con los numeros dados
 
   for (int i = 0; i < n; i++){
-    cin >> arr[i];
+    entrada >> arr[i];
   }
 
   mergeSort(arr, 0, n-1);
